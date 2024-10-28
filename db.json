@@ -1,79 +1,14 @@
 {
-    "operations": [
-      {
-        "name": "Scooter 223",
-        "type": "Kingsong",
-        "model": "Xiaome FA",
-        "price": 123,
-        "address": "Los Olivos sn1",
-        "phone": "926335924",
-        "imageUrl": "https://i.ibb.co/8rdm6xC/Logo-Movi-Tech.png",
-        "id": "236e"
-      },
-      {
-        "id": "98b8",
-        "name": "xiaomi",
-        "type": "Xiaomi",
-        "model": "Xiaome FA",
-        "price": 3,
-        "address": "calle 1",
-        "phone": "999999999",
-        "imageUrl": "https://i.ibb.co/8rdm6xC/Logo-Movi-Tech.png"
-      }
-    ],
     "users": [
       {
         "id": "26bd90cf-3d0b-4e21-874c-d2d6aa25d427",
         "email": "velarde@gmail.com",
         "password": "velarde123",
-        "completeName": "Néstor Velarde Gonzales",
+        "completeName": "Nestor Velarde cody",
         "phone": "926335924",
-        "dni": "76456342edw",
+        "dni": "76456342",
         "photo": "https://i.ibb.co/8rdm6xC/Logo-Movi-Tech.png",
-        "address": "Av. Metropolitana, Lima.,,,"
-      },
-      {
-        "id": "cc0b24e6-d0cc-4d62-bcc5-cc9e7172cef8",
-        "email": "mari@yahoo.com",
-        "password": "12345678",
-        "completeName": "Mariana Iza",
-        "phone": "990990604",
-        "dni": "000000000",
-        "photo": "https://www.famousbirthdays.com/headshots/mariana---vila-2.jpg",
-        "user_roles_id": 2,
-        "address": "Calle Sol 456",
-        "suscriptionId": null
-      },
-      {
-        "id": "a36e10e1-c5ff-44b8-a7a8-7f7e9553878a",
-        "email": "inumaki@gmail.com",
-        "password": "12345678",
-        "completeName": "toge",
-        "phone": "999999999",
-        "dni": "00000000",
-        "photo": "https://i.pinimg.com/736x/df/81/c9/df81c91f15e8280e24af32e316404b2e.jpg",
-        "address": "Calle 13",
-        "suscriptionId": null
-      },
-      {
-        "id": "ec7640ba-b39f-4f9a-901b-d99b5551e667",
-        "email": "messo@gmail.com",
-        "password": "Sobble08",
-        "completeName": "Messo",
-        "phone": "9999999999",
-        "dni": "76929357",
-        "photo": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/08/sobble-evolution-feature-header.jpg",
-        "address": "Calle 12"
-      },
-      {
-        "id": "fd02ae60-0deb-4de5-9508-b18768b9c1e2",
-        "email": "a@gmail.com",
-        "password": "12345678",
-        "completeName": "A",
-        "phone": "9999999999",
-        "dni": "76929357",
-        "photo": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/08/sobble-evolution-feature-header.jpg",
-        "address": "Calle 12"
+        "address": "Av. Lima 123"
       }
     ],
     "user_roles": [
@@ -89,57 +24,27 @@
     "scooters": [
       {
         "id": "604aa948-c9d6-4301-9989-a809947f1752",
-        "name": "scooter 366",
+        "name": "scooter 4",
         "brand": "BMX",
         "model": "BMX",
         "image": "https://i.ibb.co/8rdm6xC/Logo-Movi-Tech.png",
         "price_per_hour": 45,
         "district": "Los Olivos",
         "phone": "777777777"
-      },
-      {
-        "id": "b166c162-d63e-443f-8def-beead52f5c1c",
-        "name": "scooter promax",
-        "brand": "Rider",
-        "model": "Rider",
-        "image": "https://i.ibb.co/8rdm6xC/Logo-Movi-Tech.png",
-        "price_per_hour": 100,
-        "district": "Barranco",
-        "phone": "888888888"
-      },
-      {
-        "id": "d5022a22-c391-4048-8abb-0db1f0a17998",
-        "name": "scooter8",
-        "brand": "HDTP",
-        "model": "RUBET",
-        "image": "https://i.ibb.co/8rdm6xC/Logo-Movi-Tech.png",
-        "price_per_hour": 13,
-        "district": "La Molina",
-        "phone": "333333333"
-      },
-      {
-        "id": "4765450f-9088-4591-a4ae-0c94079245bd",
-        "name": "Scooter 5",
-        "brand": "Xiaomi",
-        "model": "Xiaomi",
-        "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/08/sobble-evolution-feature-header.jpg",
-        "price_per_hour": 1,
-        "district": "Miraflores",
-        "phone": "999999999"
       }
     ],
     "reservations": [
       {
-        "id": "1729924314786",
+        "id": "1730009924893",
         "client_id": 1,
         "scooter_id": "d5022a22-c391-4048-8abb-0db1f0a17998",
-        "start_date": "2024-10-26T06:31:54.786Z",
-        "end_date": "2024-10-27T06:31:54.793Z",
+        "start_date": "2024-10-27T06:18:44.893Z",
+        "end_date": "2024-10-28T06:18:44.893Z",
         "price": 13,
         "time": 1
       }
     ],
-    "rates": [
+    "reviews": [
       {
         "id": "1",
         "comment": "Excelente scooter, muy cómodo.",
@@ -206,17 +111,6 @@
         "description": "Plan con acceso con todos los beneficios durante 1 año.",
         "stars": 3,
         "price": 199
-      },
-      {
-        "id": "c62d",
-        "userId": 1,
-        "planId": "1",
-        "planName": "Plan Mensual",
-        "planPrice": "39",
-        "cardNumber": "9999999999999999",
-        "expiryDate": "11/11",
-        "cvv": "111",
-        "status": "active"
       }
     ]
 }
